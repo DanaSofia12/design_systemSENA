@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="cont-diseño">
+        <h1 class="titulo-prin">Design System</h1>
+        <!-- PALETA DE COLOREEEES -->
+    <h2 class="tit-paleta">Paleta de Colores</h2>
+    <div class="cont-paleta">
+        <div class="colores">
+            <div class="div primario"></div>
+            <h4>#39A900</h4>
+            <h4>Principal</h4>
+        </div>
+        <div class="colores">
+            <div class="div secundario"></div>
+            <h4>#00324D</h4>
+            <h4>Secundario</h4>
+        </div>
+        <div class="colores">
+            <div class="div complementario1"></div>
+            <h4>#385c57</h4>
+            <h4>Complementario1</h4>
+        </div>
+        <div class="colores">
+            <div class="div complementario2"></div>
+            <h4>#e6e6e6</h4>
+            <h4>Complementario2</h4>
+        </div>
+        <div class="colores">
+            <div class="div degrade"></div>
+            <h4>Degrade</h4>
+        </div>
+
+    </div>
+
+    <!-- TIPOGRAFIAS -->
+    <div class="cont-tipografias">
+        <h2 class="tipografias">Tipografias</h2>
+        <h3>Encabezados</h3>
+        <table class="tabla">
+
+            <thead class="tabla-header">
+                <tr>
+                    <td>Tipo de encabezado</td>
+                    <td>Etiqueta html </td>
+                    <td>Tipografia</td>
+                    <td>Tamaño</td>
+                    <td>Color</td>
+                </tr>
+            </thead>
+            <tr>
+                <td><h1>titulo </h1></td>
+                <td>h1 </td>
+                <td>Work Sans</td>
+                <td>32px/48px</td>
+                <td>Primario</td>
+            </tr>
+            <tr>
+                <td><h2>titulo </h2></td>
+                <td>h2</td>
+                <td>Work Sans</td>
+                <td>24px/40px</td>
+                <td>Primario</td>
+            </tr>
+            <tr>
+                <td><h3>subtitulo</h3></td>
+                <td>h3</td>
+                <td>Work Sans</td>
+                <td>18px/32px</td>
+                <td>Secundario</td>
+            </tr>
+            <tr>
+                <td> <h4> subtitulo </h4> </td>
+                <td>h4</td>
+                <td>Work Sans</td>
+                <td>16px/24px</td>
+                <td>Secundario</td>
+            </tr>    
+            <tr>
+                <td>parrafo</td>
+                <td> p</td>
+                <td>Roboto</td>
+                <td>16px/24px</td>
+                <td>Negro (#000)</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- BOTONEEES -->
+    <h2>Botones</h2>
+    <div class="botones">
+    <button class="btn-primary">primary</button>
+    <button class="btn-secundary">secundary</button>
+    <a href="#" class="enlace">enlace</a>
+    </div>
+
+    <!-- TABLAS -->
+    <h2>Tablas</h2>
+    <div class="diseño-tablas">
+        <table class="tabla">
+            <thead class="tabla-header">
+                <tr>
+                    <th>Ejem-nombre</th>
+                    <th>Ejem-apellido</th>
+                    <th>Ejem-correo</th>
+                    <th colspan="2">Acciones</th>
+                </tr>
+            </thead>
+            <tbody class="tabla-content">
+                <tr>
+                    <th>xxxxx</th>
+                    <th>xxxxxxxx</th>
+                    <th>xxxxx@xxxx.com</th>
+                    <th><button class="btn-tabla">boton1</button></th>
+                    <th><button class="btn-tabla">boton2</button></th>
+                </tr>
+                <tr>
+                    <th>xxxxx</th>
+                    <th>xxxxxxxx</th>
+                    <th>xxxxx@xxxx.com</th>
+                    <th><button class="btn-tabla">boton1</button></th>
+                    <th><button class="btn-tabla">boton2</button></th>
+                </tr>
+                <tr>
+                    <th>xxxxx</th>
+                    <th>xxxxxxxx</th>
+                    <th>xxxxx@xxxx.com</th>
+                    <th><button  class="btn-tabla">boton1</button></th>
+                    <th><button class="btn-tabla">boton2</button></th>
+                </tr>
+                <tr>
+                    <th>xxxxx</th>
+                    <th>xxxxxxxx</th>
+                    <th>xxxxx@xxxx.com</th>
+                    <th><button  class="btn-tabla">boton1</button></th>
+                    <th><button class="btn-tabla">boton2</button></th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- FORMULARIOS -->
+
+    <h2>Formularios</h2>
+    <div class="cont-form">
+        <h2>Formulario</h2>
+        <form action="#" method="POST">
+            
+            <label class="form-label" for="inputText">Input</label>
+            <input type="text" class="form-input" name="inputText" placeholder="EJ:Pepito Perez">
+            
+    
+            <label  class="form-label" for="textareaInput">Textarea</label>
+            <textarea class="form-textarea" name="textareaInput" rows="4" cols="30"></textarea>
+
+            <label class="form-label" for="selectOption">Select</label>
+            <select class="form-select" name="selectOption">
+                <option class="select-opt" value="option1">primero</option>
+                <option class="select-opt" value="option2">segundo</option>
+                <option class="select-opt" value="option3">tercero</option>
+            </select>
+    
+            
+            <label class="form-label" for="radioInput1">Radio:</label>
+            <label><input type="radio" class="form-radio" name="radioInput" value="01"> <span>Opcion 1</span> </label>
+            <label><input type="radio" class="form-radio" name="radioInput" value="02"> <span>Opcion 2</span></label>
+            <label><input type="radio" class="form-radio" name="radioInput" value="02"> <span>Opcion 3</span></label>
+    
+
+            <label  class="form-label" for="checkboxInput">Checkbox:</label>
+            <label><input type="checkbox" class="form-checkbox" id="squaredOne"><span>Opcion 1</span></label>
+            <label><input type="checkbox" class="form-checkbox" id="squaredOne"><span>Opcion 1</span></label>
+
+
+
+           
+    
+        </form>
+    </div>
+
+    
+
+</div>
+</body>
+</html>
